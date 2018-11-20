@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href= "/public/assets/stylesheet.css" rel="stylesheet" type="text/css"/>
+
+        <title>
+            Blog Application
+        </title>
+    </head>
+        <body>
+            <div class="container1">
+                <nav class="navbar">
+                    <span class="burger" onclick="openNav()">&#9776;</span>    
+                </nav>
+                    <div id="mySidenav" class="sidenav">
+                       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                       <a href="http://localhost:3000/">Home</a>
+                       <a href="http://localhost:3000/feed">Feed</a>                     
+                    </div>
+                    <h1 class="heading">Registration Page</h1>
+
+            <div class="container2">
+                    <div class="inputs">
+                            <form class="form" action= '/register' method='post'>
+                                <input type="text" class="form" name='username' placeholder="Username"> 
+                                <input type="password" class="form" name='password' placeholder="Password">
+                                <input type="text" class="form" name='email' placeholder="email">
+
+                                <input type='submit' id="submit" placeholder='submit'>
+                            </form>
+                        </div>
+                </div>
+                <div class="input"> </div>
+
+
+                    
+
+
+
+                
+            </div>
+       </body>
+       <script rel="text/javascript" src="/public/assets/scripts.js"></script>
+
+        <footer>
+        </footer>
+</html>
